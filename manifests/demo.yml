@@ -17,7 +17,7 @@ metadata:
     source: demo
     stack: frontend
     app: spinnaker
-    testing: demo
+    testing: demo2
 spec:
   replicas: 3
   selector:
