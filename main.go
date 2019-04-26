@@ -10,6 +10,7 @@ import (
 
 func index(w http.ResponseWriter, r *http.Request) {
 	fmt.Printf("Handling %+v\n", r);
+	fmt.Printf("Heya, good day", r);
 	bs, err := ioutil.ReadFile("/content/index.html")
 
 	if err != nil {
